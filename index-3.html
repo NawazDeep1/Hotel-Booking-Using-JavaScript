@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Montreal Tourism </title>
+    <link rel="stylesheet" type="text/css" href="./css/styles-2.css">
+    <script src="./js/main-3.js"></script>
+</head>
+
+<body>
+    <h2>
+        <u>MONTREAL-TOURISM</u>
+    </h2>
+    <h1>
+        <u>Evaluation of a Trip in Montreal</u>
+    </h1>
+    <hr />
+    <form action="#" id="myForm">
+        <table id="tab1" align="center">
+            <tr>
+                <td>Name: </td>
+                <td>
+                    <input type="text" id="txtName" />
+                </td>
+                <td>
+                    <span id="vName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Type of Hotel: </td>
+                <td>
+                    <select id="cmbHotel" size="1">
+                        <option value="nostar"> </option>
+                        <option value="10">1 Star</option>
+                        <option value="20">2 Star</option>
+                        <option value="30">3 Star</option>
+                        <option value="40">4 Star</option>
+                        <option value="50">5 Star</option>
+                    </select>
+                </td>
+                <td>
+                    <span id="vHotel"></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top">Type of Room: </td>
+                <td>
+                    <select id="cmbRoom" size="3">
+                        <option value="50">Room</option>
+                        <option value="70">Semi-Suite</option>
+                        <option value="100">Suite</option>
+                    </select>
+                </td>
+                <td>
+                    <span id="vRoom"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Number of Person: </td>
+                <td>
+                    <input type="number" id="txtNbPerson" min="1" max="2" />(Max. Two Persons)</td>
+                <td>
+                    <span id="vNbPerson"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Duration: </td>
+                <td>
+                    <input type="number" id="txtDuration" />/ Day</td>
+                <td>
+                    <span id="vDuration"></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top">Extras:</td>
+                <td>
+                    <input type="checkbox" class="Extra" value="20" />City Bus Tour (20$)
+                    <br />
+                    <input type="checkbox" class="Extra" value="80" />Spa Massage (80$)
+                    <br />
+                    <input type="checkbox" class="Extra" value="200" />Hockey Ticket(200$)
+                </td>
+                <td>
+                    <span id="vExtra"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Evaluate" />
+                </td>
+                <td>
+                    <input type="reset" value="Clear" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div id="billDisplay">
+        <span id="content"></span>
+    </div>
+
+
+</body>
+
+</html>

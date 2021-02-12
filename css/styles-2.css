@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+    font-family: Tahoma;
+    color: whitesmoke;
+    background: url("../img/mtl5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: gold;
+    text-shadow: 2px 2px black;
+}
+
+td {
+    vertical-align: top;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+#billDisplay {
+    position: fixed;
+    top: 29%;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    /*set to a negative number 1/2 of your height*/
+    margin-left: -15em;
+    /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    visibility: hidden;
+    color: black;
+}
